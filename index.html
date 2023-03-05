@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+    <Title>my portofolio</Title>
+    <!-- css bootstrap -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5/css/bootstrap.min.css">
+    <!-- js bootstrap -->
+    <script type="text/javascript" src="bootstrap-5/js/bootstrap.bundle.js"></script>
+
+</Head>
+
+<body>
+    <!-- navbarnya -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a style="color: black;" class="navbar-brand" href="#">Main Menu</a>
+            <button style="background: black;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a style="color: black;" class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;" class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;" class="nav-link" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;" class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;" class="nav-link" href="#footer">Footer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <script>
+        // add class navbarDark on navbar scroll
+        const header = document.querySelector('.navbar');
+
+        window.onscroll = function () {
+            var top = window.scrollY;
+            if (top >= 100) {
+                header.classList.add('navbarDark');
+            }
+            else {
+                header.classList.remove('navbarDark');
+            }
+        }
+
+    </script>
+    </div>
+    </nav>
+    <!-- endof -->
+
+    <!-- main banner -->
+    <div class="lingkaran1"></div>
+    <div class="lingkaran2"></div>
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h3 class="hero_title">Hi, It's My Portfolio</h3>
+                    <p class="hero_desc">I am a student at Learning X </p>
+                    <a style="border-radius: 100px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
+                        class="btn btn-primary" href="#about" role="button">About Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- About -->
+    <div class="bulat1"></div>
+    <section id="about">
+            <h2 style="text-align:center;" class=" display-5 fw-bold lh-1">About</h2>
+        </div>
+        <div class="container-fluid">
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img style="border-radius:200px;" src="file:///D:/LXHTML/myportofolio/r3.jpg"
+                            class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="250" height="200"
+                            loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3">Randy Ardiansyah</h1>
+                        <p class="lead">Universitas Handayani Makassar - Teknik Informatika</p>
+                        <p class="lead">Maybe it took a time too understand this page, because i dont have so much time
+                            too make incredible portofolio, but i am trying my best,
+                            so here i am. Dont hate me!!.
+                        </p>
+                        <a style="border-radius: 100px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
+                        class="btn btn-primary" href="#project" role="button">Project down here!!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End -->
+
+    <!-- projectmain -->
+    <section id="project">
+            <h1 style="text-align: center;" class="display-5 fw-bold lh-1 ">My Project </h1>
+            <div class="col-lg-6 mx-auto">
+                <h2 class="lead mb-4">This project already done, but not really good because it so mess up
+                    but i am tryed too make my project looks like pro, not really xixixi.....okey loveuu
+                </h2>
+        </div>
+        <div class="container">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="file:///D:/LXHTML/myportofolio/okamurayuta%20works%20(3).jpg"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Delphi</h5>
+                            <p class="card-text">I can make program,like a desktop app .</p>
+                            <p class="card-text"><small class="text-muted">Last updated 1 year ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="file:///D:/LXHTML/myportofolio/okamurayuta%20works%20(2).jpg"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">PHP</h5>
+                            <p class="card-text">Rekaya Web, little bit .</p>
+                            <p class="card-text"><small class="text-muted">Last updated 1 year ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="file:///D:/LXHTML/myportofolio/okamurayuta%20works%20(1).jpg"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Pascal</h5>
+                            <p class="card-text">same program, but just like a cmd.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 1 year ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <br>
+    <!-- endof -->
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+            <p style="text-align: center;">Drop you problem right here, make sure you use ur personel mail</p>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                   <img src="file:///D:/LXHTML/myportofolio/Bravo.png " class="size">
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">@contoh.com</span>
+                          </div>
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Telp" aria-label="Telp">
+                            <span class="input-group-text">tlp</span>
+                            </div>
+                          <div class="input-group">
+                            <span class="input-group-text">With textarea</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                          </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+<br>
+<!-- endofcontact -->
+
+<!-- footernya -->
+<footer id="footer">
+    <div class="container-fluid">
+    <!-- <div class="card mb-3" style="max-width: 100%;"> -->
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img style="border-radius: 20%;" src="file:///D:/LXHTML/myportofolio/mr-tt-xb0wLfZH9Zo-unsplash.jpg" class="card-img-top" alt="..."" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 style="color: white;" class="card-title">Kudoou pages</h5>
+              <p style="color: white;" class="card-text">2023 march 06, Makassar.</p>
+              <p style="color: white;" class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+</body>
+
+</html>

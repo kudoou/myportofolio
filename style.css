@@ -1,0 +1,88 @@
+/* hero background image */
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bgimage{
+    height: 100vh;
+    background-image: url('file:///D:/LXHTML/myportofolio/face.png');
+    background-repeat: no-repeat;
+    background-position: center right 100px;
+    background-size: 400px;
+    /* background-color: burlywood; */
+    /* background-color:blueviolet; */
+    /* background-attachment: fixed;  */
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 3.5rem;
+}
+.hero_desc {
+    font-size: 1.5rem;
+    
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color:black;
+}
+.imageaboutpage{
+    width: 100%;  
+    background-size: 10%;
+}
+
+/* display background color on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color:blueviolet;
+}
+
+.lingkaran1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 21%;
+    left: 8%;
+    background: yellow;
+    border-radius: 100%;
+}
+.lingkaran2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    background:blueviolet;
+    border-radius: 100%;
+
+}
+
+.bulat1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 75%;
+    top: 122%;
+    background:blueviolet;
+    border-radius: 100%;
+}
+
+/* size foto */
+.size{
+    width: 500px;
+    height: 400px;
+
+}
+
+/* footerbg */
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
+/* footer styling */
+#footer {
+    background-color:cadetblue;
+    text-align: center;
+}
